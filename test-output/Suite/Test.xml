@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="n760149-w10" name="com.Pro.qa.testcases.ContactsPageTest" tests="10" failures="0" timestamp="30 Apr 2018 16:52:34 GMT" time="1.059" errors="0">
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.Pro.qa.testcases.ContactsPageTest">
+    <failure type="java.lang.IllegalStateException" message="The driver executable does not exist: C:\Users\naveenkhunteta\Downloads\chromedriver">
+      <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\naveenkhunteta\Downloads\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.Pro.qa.base.TestBase.initialization(TestBase.java:45)
+	at com.Pro.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:34)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.Pro.qa.testcases.ContactsPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.Pro.qa.testcases.HomePageTest">
+    <failure type="java.lang.IllegalStateException" message="The driver executable does not exist: C:\Users\naveenkhunteta\Downloads\chromedriver">
+      <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\naveenkhunteta\Downloads\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.Pro.qa.base.TestBase.initialization(TestBase.java:45)
+	at com.Pro.qa.testcases.HomePageTest.setUp(HomePageTest.java:31)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.Pro.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.Pro.qa.testcases.LoginPageTest">
+    <failure type="java.lang.IllegalStateException" message="The driver executable does not exist: C:\Users\naveenkhunteta\Downloads\chromedriver">
+      <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\Users\naveenkhunteta\Downloads\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at com.Pro.qa.base.TestBase.initialization(TestBase.java:45)
+	at com.Pro.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:22)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.Pro.qa.testcases.LoginPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.Pro.qa.testcases.ContactsPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.Pro.qa.testcases.ContactsPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.Pro.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.Pro.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.Pro.qa.testcases.LoginPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.Pro.qa.testcases.LoginPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.Pro.qa.testcases.ContactsPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.Pro.qa.testcases.ContactsPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.Pro.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.Pro.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.Pro.qa.testcases.LoginPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.Pro.qa.testcases.LoginPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyContactsPageLabel" time="0.01" classname="com.Pro.qa.testcases.ContactsPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyHomePageTitleTest" time="0.006" classname="com.Pro.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="loginPageTitleTest" time="0.011" classname="com.Pro.qa.testcases.LoginPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="selectSingleContactsTest" time="0.003" classname="com.Pro.qa.testcases.ContactsPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyUserNameTest" time="0.001" classname="com.Pro.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="crmLogoImageTest" time="0.002" classname="com.Pro.qa.testcases.LoginPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="selectMultipleContactsTest" time="0.002" classname="com.Pro.qa.testcases.ContactsPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyContactsLinkTest" time="0.001" classname="com.Pro.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="loginTest" time="0.001" classname="com.Pro.qa.testcases.LoginPageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="validateCreateNewContact" time="0.692" classname="com.Pro.qa.testcases.ContactsPageTest">
+    <skipped/>
+  </testcase>
+</testsuite>

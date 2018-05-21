@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test Regression Suite]">
+  <listeners>
+    <listener class-name="com.Pro.qa.ExtentReportListener.ExtentReportNG"/>
+  </listeners>
+  <test name="Test(failed)" preserve-order="false">
+    <classes>
+      <class name="com.Pro.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="selectMultipleContactsTest"/>
+          <include name="tearDown"/>
+          <include name="selectSingleContactsTest"/>
+          <include name="validateCreateNewContact"/>
+          <include name="setUp"/>
+        </methods>
+      </class>
+      <class name="com.Pro.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class>
+      <class name="com.Pro.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyContactsLinkTest"/>
+          <include name="verifyUserNameTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

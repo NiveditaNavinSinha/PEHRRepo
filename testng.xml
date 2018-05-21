@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Regression Suite">
+	<listeners>
+		<listener class-name="com.Pro.qa.ExtentReportListener.ExtentReportNG" />
+	</listeners>
+
+  <test name="Test" preserve-order="false">
+    <classes>
+      <class name="com.Pro.qa.testcases.LoginPageTest"/>
+<!--   -->     <class name="com.Pro.qa.testcases.ContactsPageTest"/>
+      <class name="com.Pro.qa.testcases.HomePageTest"/>
+    </classes>
+  </test>
+</suite>
